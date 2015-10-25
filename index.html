@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Digits</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,800' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"></a></h1>
+					<nav id="nav">
+						
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2><img src="images/digitslogotype2.png"></h2>
+							<p>Speak with your hands.<br>
+						</p>
+							<a href="#trynow" class="button special">Try It Now</a>
+						</header>
+						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2><center><div class="icon"><i class="fa fa-desktop fa-3x"></i></div>
+											<div class="title">
+												Translate the Unthinkable
+												</div></center></h2>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>Digits will recognize, analyze, and interpret American Sign Language into words. Through the implementation of Clarifai api, Digits is an intuitive application with a
+galore of capabilities. Our vision is of a system created primarily to seek continuous improvement in order to translate the unthinkable.</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>Continuous improvement infers to our drive to grow Digits with each and every use. 
+Digits has great potential awaiting to be harnessed and that is what makes the 
+concept so revolutionary. The program will only continue to educate itself for every
+trial and error imposed upon it. Digits is curious and ambitious, and that is just
+the way we meant for it to be.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Transform Text to Photos</h2>
+							<p>Find out how to sign that word you've always wondered about</p><br>
+						</header>
+						<p>Digits gives users the ability to instantly  translate their own words into American Sign Language. You simply input the words you wish to be translated, hit the big translate button, and a photo of the corresponding sign language will appear effortlessly before you. </p>
+						<ul class="actions">
+							<li><a href="#trynow" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Transform Photos to Text</h2>
+							<p>Digits can tell you if you're signing a word right in a matter of moments</p><br>
+						</header>
+						<p>Digits can even be used for video translations. Our system can take a video, analyze it by frames, and write
+out its translation in sentences. Someday, Digits will soon grow to interpret 
+other hand gestures and could branch out to body languages and even facial expressions.
+The possibilities are endless.</p>
+						<ul class="actions">
+							<li><a href="#trynow" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+			<a name="trynow"></a>
+				<div class="container">
+						
+				<section id="four" class="wrapper style1 special fade-up">
+					<header class="major">
+							<h2>Don't Let Us Do All the Talking</h2><p>See for yourself the power of translation with Digits</p></header>
+				
+
+						<!--   FORM -->
+						<!-- Form -->
+     <div class="form">
+  <ul class="tab-group">
+    <li class="tab active"><a href="#signup">Upload Image or Video</a></li>
+    <li class="tab"><a href="#translate">Enter Text</a></li>
+  </ul>
+  <div class="instructions">
+     To translate an image or video, click the browse button and select the file from your computer.
+    If you’re translating a video, click to start playback. Pause when the desired hand gesture is onscreen. Hit translate to find out what they’re saying!
+    Continue this process throughout the video to translate more than one gesture!
+  </div>
+  <div class="tab-content">
+    <div id="signup">
+      <form action="#" method="post">
+
+          <div class="field-wrap">
+            <label>
+              Upload a photo or video<span class="req"></span>
+            </label>
+            <input type="text" required autocomplete="off" />
+			  <div class="browsebutton" onclick="toggle('video_wrap')">Browse</div>
+          </div><br/>
+
+          <div id="video_wrap" class="field-wrap-video" style="display:none;">
+
+
+  <video id="my_video" width="640" height="360" controls>
+                 <source src="images/commercial.mp4" type="video/mp4" />
+              </video>
+
+
+              <canvas id="thecanvas" width="640" height="360" style="display:none;"> </canvas>
+
+
+
+
+              <div id="thumbnail_wrapper" style="display:none;"><img id="thumbnail_img" alt="Right click to save" /><br /></div>
+
+            </div>
+
+	    <br/><br/>
+           <div style="display:inline;" class="foo" id="message"></div>
+          </div>
+          
+          
+		  <div class="formbutton" onclick="saveImage()">TRANSLATE</div>
+	
+      </form>
+
+    </div>
+
+    <div id="login">
+      <div class="top-row">
+<!--
+          <div class="field-wrap-video">
+
+          </div>-->
+        </div>
+		 <div class="formbutton" onclick="saveImage()">TRANSLATE</div>
+
+		
+    </div>
+
+  </div>
+  <!-- tab-content -->
+
+							</div>
+							<center>
+<img src="images/poweredby.png"></center><br>
+						
+<!-- /form -->
+
+
+			
+						
+						
+						<!-- END FORM-->
+
+			<!-- Five -->
+
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Digits. All rights reserved.</li></li>
+					</ul>
+				</footer>
+
+		</div>
+
+<!-- Scripts -->
+<script type="text/javascript" src="includes/clarifai-basic.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/form.js"></script>
+	<!-- Scripts -->
+  <a href="http://jquery.com/"></a>
+<script src="assets/js/form.js"></script>
+ <script type='text/javascript'>
+
+                        window.onload = function (){
+
+                            var video = document.getElementById('my_video');
+                            var thecanvas = document.getElementById('thecanvas');
+                            var img = document.getElementById('thumbnail_img');
+
+
+                            video.addEventListener('pause', function(){
+
+                                draw( video, thecanvas, img);
+
+                            }, false);
+
+                        };
+
+
+                        function draw( video, thecanvas, img ){
+
+                            // get the canvas context for drawing
+                            var context = thecanvas.getContext('2d');
+
+                            // draw the video contents into the canvas x, y, width, height
+                            context.drawImage( video, 0, 0, thecanvas.width, thecanvas.height);
+
+                            // get the image data from the canvas object
+                            var dataURL = thecanvas.toDataURL();
+
+                            // set the source of the img tag
+                            img.setAttribute('src', dataURL);
+
+                        }
+                    </script>
+ <script>
+   var clarifai;
+   var finalClassification = "";
+   var maxConfidence = 0.0;
+  var count =  6;
+   var path;
+   
+	 function toggle(id)
+    {
+        var e = document.getElementById(id);
+        if (e.style.display == 'block' || e.style.display=='')
+        {
+            e.style.display = 'none';
+        }
+        else
+        {
+            e.style.display = 'block';
+        }
+    }
+
+	 function saveImage(){
+
+        canvas = document.getElementById('thecanvas');
+        var dataURL = canvas.toDataURL("image/png");
+        $.ajax({
+            type: "POST",
+            url: "php/upload_binary.php",
+            data: {
+                imgBase64: dataURL
+            }
+        }).done(function(o) {
+   //console.log(o);
+//   setTimeout(predict(o), 2000);
+            predict(o);
+        });
+    }
+
+    $(document).ready(
+            function(){
+                clarifai = new Clarifai(
+                        {
+                            'clientId': 'tb_cm7MdBiUEXdMTzJzzBeVZ5JhnVTU0dgKB7U0y',
+                            'clientSecret': 'b-DvTrlbco9Fd-bEsxJMp6UUILKVoyBj3kE-zFbO'
+                        }
+                );
+            }
+    );
+
+
+    function foo(classification, confidence){
+        //console.log("confidence:" + confidence + "max confidence: " + maxConfidence);
+        if(confidence > maxConfidence){
+            finalClassification = classification;
+            maxConfidence = confidence;
+            //alert(finalClassification);
+        }
+        if(count ==1){
+            $("#message").append($("<P>").text(finalClassification+ " "));
+            count = 6;
+	    finalClassification = "";
+	    maxConfidence = 0.0;
+        }
+        count--;
+    }
+
+
+    function predict(url){
+            var models =
+	    ["letter_a",
+	    "letter_b",
+	    'letter_c',
+	    'letter_d',
+	    'letter_e',
+	    'letter_f',
+	    'letter_g',
+	    'letter_h',
+	    'letter_i',
+	    'letter_l',
+	    'letter_m',
+	    'letter_n',
+	    'letter_o',
+	    'letter_q',
+	    'letter_r',
+	    'letter_s',
+	    'letter_t',
+	    'letter_u',
+	    'letter_v',
+	    'letter_w',
+	    'letter_y'];
+
+
+        for(var i=0; i< models.length; i++)
+        {
+
+            (function(i) {
+                setTimeout(function() {
+                    clarifai.predict("http://montycheese.cloudapp.net/digits/images/photo.png", models[i], function(obj){
+                        (function (i){
+			console.log(obj);
+                            return foo(models[i],obj.score);
+                        }(i))
+                    });
+                }, 1000);
+            })(i);
+
+            //replace url with our server's image location, this will only work when the code is on server
+            /*clarifai.predict('http://imgur.com/dEzAAdf.jpg', models[i], function(obj){
+             (function (i){
+             return foo(models[i],obj.score);
+             }(i))
+             });*/
+        }
+        //return getResult();
+    }
+
+</script>
+	
+
+	</body>
+</html>

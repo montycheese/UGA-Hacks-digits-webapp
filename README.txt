@@ -1,7 +1,7 @@
 Digits
 
 ** Live Demo **
-montycheese.cloudapp.net/digits | @2015
+montycheese.cloudapp.net | @2015
 
 
 Montana Wong | montanawong@gmail.com

@@ -1,7 +1,7 @@
 Digits
 
 ** Live Demo **
-montycheese.cloudapp.net | @2015
+http://ec2-52-91-180-55.compute-1.amazonaws.com/UGA-Hacks-digits-webapp/ | @2015
 
 
 Montana Wong | montanawong@gmail.com
